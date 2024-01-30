@@ -13,7 +13,7 @@ pipeline {
         stage('Docker Build Images') {
             steps {
                 script {
-                    sh 'docker build -t naresh2603/multi:v2 .'
+                    sh 'docker build -t rajimohan19/multi:v1 .'
                     sh 'docker images'
                 }
             }
