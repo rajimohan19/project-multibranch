@@ -15,7 +15,7 @@ pipeline {
         stage('Docker Build Images') {
             steps {
                 script {
-                    sh 'docker build -t rajimohan19/multi:v1 .'
+                    sh 'docker build -t rajimohan19/multi:v3 .'
                     sh 'docker images'
                 }
             }
